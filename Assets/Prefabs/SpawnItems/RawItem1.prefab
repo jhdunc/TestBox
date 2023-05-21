@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4772920662190576179}
   - component: {fileID: 4772920662190576178}
   m_Layer: 0
-  m_Name: ParentRawItem
+  m_Name: RawItem1
   m_TagString: SpawnItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

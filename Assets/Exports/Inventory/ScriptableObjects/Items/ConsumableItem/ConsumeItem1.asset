@@ -15,3 +15,4 @@ MonoBehaviour:
   iconPrefab: {fileID: 3286413620414292404, guid: 1b00c0aed1ccd8d4db68b0e475934729, type: 3}
   type: 2
   description: 
+  restoreAmmoValue: 5

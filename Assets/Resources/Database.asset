@@ -9,7 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 2ddf5d5a7f2b99e4b8faae0aa55ff560, type: 3}
   m_Name: Database
-  m_EditorClassIdentifier: Assembly-CSharp::ItemDatabaseObject
-  Items: []
+  m_EditorClassIdentifier: 
+  Items:
+  - {fileID: 11400000, guid: 111d834e25c595b4484effe13a2b819b, type: 2}
+  - {fileID: 11400000, guid: 35236acd0b374b044b36210c489927bb, type: 2}
+  - {fileID: 11400000, guid: 9118a6d4d79e94845941b5731d75a54f, type: 2}
+  - {fileID: 11400000, guid: 0c67a754ec9ace845999c94ac5b64533, type: 2}
+  - {fileID: 11400000, guid: 934b8b710d2ff914db790bc6e157785a, type: 2}
+  - {fileID: 11400000, guid: 27b91709ea453524ca2579ac3f8397f5, type: 2}
+  - {fileID: 11400000, guid: 40987c8451248294680242b03250e9de, type: 2}
+  - {fileID: 11400000, guid: b3474bacabdf721469509fef9d277632, type: 2}
+  - {fileID: 11400000, guid: fb44445be18e8674a8f8963a5b281a9a, type: 2}
