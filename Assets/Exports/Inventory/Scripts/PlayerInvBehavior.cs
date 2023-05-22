@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerInvBehavior : MonoBehaviour
 {
-    public InventoryObject inventory;
 
+    public InventoryObject inventory;
     public void OnTriggerEnter(Collider other)
     {
         var item = other.GetComponent<Item>();
@@ -15,7 +15,13 @@ public class PlayerInvBehavior : MonoBehaviour
             Destroy(other.gameObject);
         }
     }
-    private void Update()
+    public void OnTriggerExit(Collider other)
+    {
+        
+    }
+
+
+private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
