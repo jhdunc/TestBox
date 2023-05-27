@@ -11,7 +11,7 @@ public class SpawnObject : MonoBehaviour
     public void objectSpawn()
     {
         GameObject instanceObject = GameObject.Instantiate(SpawnItem, spawnPoints[spawnCount].transform.position, Quaternion.identity);
-        Debug.Log(spawnPoints[spawnCount].name);
+       
 
     }
     void Start()

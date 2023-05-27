@@ -2,17 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Item : MonoBehaviour
+public class ItemPickupBehavior : MonoBehaviour
 {
-    public ItemObject item;
-    public InventoryObject inventory;
+/*    public InventoryObject inventory;
     public bool nearPlayer;
 
-    [SerializeField] private GameObject floatingText;
+    public GameObject floatingText;
 
     private void Update()
     {
-        var floatText = transform.Find("FloatingText");
+
         if (nearPlayer)
         {
             floatingText.SetActive(true);
@@ -22,17 +21,19 @@ public class Item : MonoBehaviour
             floatingText.SetActive(false);
         }
     }
-    
+
     public void itemPickup()
     {
-
+        
         var item = GetComponent<Item>();
 
-        if (item && item.nearPlayer)
+        if (item && nearPlayer)
         {
             inventory.AddItem(item.item, 1);
             Destroy(item.gameObject);
             Destroy(floatingText);
         }
-    }
+    }*/
 }
+
+  

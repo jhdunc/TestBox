@@ -6,6 +6,7 @@ using UnityEngine;
 public class ConsumableObject : ItemObject
 {
     public int restoreAmmoValue;
+    
     public void Awake()
     {
         type = ItemType.Consumable;

@@ -88,8 +88,6 @@ public class PlayerMovement : MonoBehaviour
     {
         moveInput = context.ReadValue<Vector2>();
 
-
-        Debug.Log(moveInput);
     }
 
     public void OnLook(InputAction.CallbackContext context)
