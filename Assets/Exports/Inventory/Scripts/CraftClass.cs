@@ -6,6 +6,7 @@ public class CraftClass : ScriptableObject
 {
     [Header("Crafting Recipe")]
     public InventoryObject inventory;
+    public InventoryObject craftinventory;
     public InventorySlot[] inputItems;
     public InventorySlot outputItem;
 
@@ -30,7 +31,7 @@ public class CraftClass : ScriptableObject
 
         }
         //add output item to inventory
-        inventory.AddItem(outputItem.GetItem(), outputItem.GetAmount());
+        craftinventory.AddItem(outputItem.GetItem(), outputItem.GetAmount());
     }
 
 }
