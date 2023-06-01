@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b524f7e7ad79b134e8a7bdcf53895276, type: 3}
   m_Name: CraftedItem1
   m_EditorClassIdentifier: 
-  iconPrefab: {fileID: 5793316087784599902, guid: 36c6069ca045c9948a11b1dd3e688961, type: 3}
+  Id: 0
+  uiDisplay: {fileID: 0}
   type: 1
   description: 

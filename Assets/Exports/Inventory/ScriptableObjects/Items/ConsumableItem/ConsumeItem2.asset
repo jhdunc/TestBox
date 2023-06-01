@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a83adf205ddab0c49954e2308c310e51, type: 3}
   m_Name: ConsumeItem2
   m_EditorClassIdentifier: 
-  iconPrefab: {fileID: 3286413620414292404, guid: 4804dd87e3cbcef408b08c8cf671cb2c, type: 3}
+  Id: 1
+  uiDisplay: {fileID: 21300000, guid: 191e5239329351043a3c47bacafc38ed, type: 3}
   type: 2
   description: 
+  restoreAmmoValue: 0

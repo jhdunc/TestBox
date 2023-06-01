@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 270082d3fb65b294eb491a92dee05826, type: 3}
   m_Name: RawMat2
   m_EditorClassIdentifier: 
-  iconPrefab: {fileID: 2218093316439286929, guid: 99d833ebfe5a1dd459494c681d24e39e, type: 3}
+  Id: 4
+  uiDisplay: {fileID: 21300000, guid: 6ef8245f97d7afd4b89f5894d8b3ba31, type: 3}
   type: 0
   description: 
