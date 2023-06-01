@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: AcrylicPanel
   m_EditorClassIdentifier: 
   inventory: {fileID: 11400000, guid: 643a8a5e6b3846b4e90220b2ca79dfca, type: 2}
+  craftinventory: {fileID: 11400000, guid: 5475e1997d816dc45b1235a49caeb4c4, type: 2}
   inputItems:
   - ID: 1
     item:
