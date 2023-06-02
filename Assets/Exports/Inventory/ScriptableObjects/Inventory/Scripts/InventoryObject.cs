@@ -88,25 +88,7 @@ public class InventoryObject : ScriptableObject
         }
         return false;
     }
-/*    public bool AddCraftItems(Item item, int amount)
-    {
-        for (int i = 0; i < Container.Items.Count; i++)
-        {
-                if (Container.Items[i].item.Id == _item.Id)
-                {
-                    Container.Items[i].AddAmount(_amount);
-                    return;
-                }
-            }
-            Container.Items.Add(new InventorySlot(_item.Id, _item, _amount));
-           
-        if (Container.Items[i].GetItem().Id == item.Id && Container.Items[i].GetAmount() >= amount)
-                Container.Items[i].RemoveAmount(amount);
-        }
-        return false;
-    }*/
-
-
+   
 }
 
 [System.Serializable]

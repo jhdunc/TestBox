@@ -858,7 +858,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 169789206}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 169789208}
+        m_TargetAssemblyTypeName: CraftBehaviour, Assembly-CSharp
+        m_MethodName: MakeOne
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &169789206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7165,6 +7177,7 @@ GameObject:
   - component: {fileID: 1087562972951651121}
   - component: {fileID: 8541805875449295511}
   - component: {fileID: 4279214063463568272}
+  - component: {fileID: 8541805875449295512}
   m_Layer: 5
   m_Name: InventoryPrefab
   m_TagString: Untagged
@@ -7537,6 +7550,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1581697712850974229}
   m_CullTransparentMesh: 1
+--- !u!114 &8541805875449295512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581697712850974229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c47ecfcb24f5bc44b306ad866c72e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  craftingRecipes: []
+  inventory: {fileID: 0}
 --- !u!222 &8690170858872474898
 CanvasRenderer:
   m_ObjectHideFlags: 0

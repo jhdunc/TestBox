@@ -30,8 +30,9 @@ public class CraftClass : ScriptableObject
             inventory.RemoveCraftItems(inputItems[i].GetItem(), inputItems[i].GetAmount());
 
         }
-/*        //add output item to inventory
-        craftinventory.AddCraftItems(outputItem.GetItem(), outputItem.GetAmount());*/
+        //add output item to inventory
+        /*craftinventory.AddCraftItems(outputItem.GetItem(), outputItem.GetAmount());*/
+        craftinventory.AddItem(outputItem.GetItem(), outputItem.GetAmount());
     }
 
 }
